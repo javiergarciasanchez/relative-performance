@@ -1,0 +1,43 @@
+<repast.simphony.chart.engine.DefaultXYChartOutputterDescriptor>
+  <name>Profit</name>
+  <outputterFactory class="repast.simphony.chart.wizard.XYChartMappingsStep$XYFactory"/>
+  <dataSetHandler>
+    <dataSets>
+      <string>Firms Agr</string>
+      <string>Firm</string>
+    </dataSets>
+  </dataSetHandler>
+  <streamHandler>
+    <columns/>
+  </streamHandler>
+  <isBatchAction>false</isBatchAction>
+  <dataSetId class="string">Firms Agr</dataSetId>
+  <showLegend>true</showLegend>
+  <multipleSeries>false</multipleSeries>
+  <xColumnName>Tick</xColumnName>
+  <autoRangeX>true</autoRangeX>
+  <autoRangeY>true</autoRangeY>
+  <visibleXRange>100.0</visibleXRange>
+  <visibleYRange>0.0</visibleYRange>
+  <xMin>0.0</xMin>
+  <xMax>0.0</xMax>
+  <yMin>0.0</yMin>
+  <yMax>0.0</yMax>
+  <precisionValue>3</precisionValue>
+  <maxHistory>500</maxHistory>
+  <seriesType>LINE</seriesType>
+  <series>
+    <repast.simphony.chart.Series>
+      <seriesID>Narrow Name</seriesID>
+      <valueColumn>Narrow Profit</valueColumn>
+      <hashCode>-1930728830</hashCode>
+      <proxy>false</proxy>
+    </repast.simphony.chart.Series>
+    <repast.simphony.chart.Series>
+      <seriesID>Utility Name</seriesID>
+      <valueColumn>Utility Profit</valueColumn>
+      <hashCode>-1853894788</hashCode>
+      <proxy>false</proxy>
+    </repast.simphony.chart.Series>
+  </series>
+</repast.simphony.chart.engine.DefaultXYChartOutputterDescriptor>

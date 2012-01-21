@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context id="relative_Performance" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
+	<projection type="value layer" id="Fourier_Space 1"></projection>
+	<projection type="value layer" id="Fourier_Space 2"></projection>
+	<projection type="continuous space" id="space3D 1"></projection>
+	<projection type="continuous space" id="space3D 2"></projection>
+
+</context>

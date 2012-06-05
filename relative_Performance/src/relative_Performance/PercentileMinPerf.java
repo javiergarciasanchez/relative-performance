@@ -1,6 +1,6 @@
 package relative_Performance;
 
-import org.apache.commons.math.stat.descriptive.DescriptiveStatisticsImpl;
+import org.apache.commons.math.stat.descriptive.DescriptiveStatistics;
 
 public class PercentileMinPerf implements MinPerfHandler {
 
@@ -9,7 +9,7 @@ public class PercentileMinPerf implements MinPerfHandler {
 		int numOfFirms = perfSpace.getdSpace().size();
 
 		if (numOfFirms > 1) {
-			DescriptiveStatisticsImpl firmsPerf = new DescriptiveStatisticsImpl();
+			DescriptiveStatistics firmsPerf = new DescriptiveStatistics();
 
 			for (Object f : perfSpace.getContext().getObjects(Firm.class)) {
 				firmsPerf.addValue(((Firm) f).getPerformance(perfSpace));
